@@ -6,6 +6,7 @@ namespace Laba14._02
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("                     Задание 1                     ");
             Console.Write("Введите число: ");
             double chislo = Convert.ToDouble(Console.ReadLine());
 
@@ -21,6 +22,7 @@ namespace Laba14._02
 
             Console.Write("Результат: ");
             Console.WriteLine(result);
+            lab2.NotMain();
         }
     }
 }
