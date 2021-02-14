@@ -13,9 +13,9 @@ namespace Laba14._02
             Console.Write("Введите число n: ");
             string n = Console.ReadLine();
             string buff;
-            buff = n.Substring(1,1);
-            n = n.Remove(1, 1);
-            n = n + buff;
+            buff = n.Substring(n.Length-1);
+            n = n.Remove(n.Length-1);
+            n = n.Insert(1, buff);
             Console.Write("Результат: ");
             Console.Write(n);
         }
